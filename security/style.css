@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+
+    background: url("https://cf.preview.redd.it/my-attempt-at-frutiger-aero-v0-m3affs4faqgb1.jpg?width=1080&crop=smart&auto=webp&s=a7f197fa0803e2286be7b2a967bb5fafdee45d2a");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 96px;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+
+}
+
+h2 {
+    font-size: 64px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+
+}
+
+p {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.content {
+    background: rgba(128, 128, 255, 0.4);
+    backdrop-filter: blur(8px);
+    padding-right: 5%;
+    padding-left: 5%;
+
+    height: 100%;
+}
+
+.topic {
+    background-color: rgba(0, 0, 255, 0.3);
+    border-radius: 15px;
+    padding: 5%;
+
+    margin-right: 10px;
+    margin-left: 10px;
+
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.topic-content {
+    padding: 5%;
+    border-width: 2px;
+    border-color: rgba(0,0,0, 0.3);
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.picture-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    padding: 5%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
